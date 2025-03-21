@@ -129,9 +129,6 @@ function load_mailbox(mailbox) {
           <div class="email-details">
           <p><span class="email-subject"><strong>Subject:</strong> ${email.subject}</span>
           <span class="email-timestamp"><strong>Created:</strong> ${email.timestamp}</span></p>
-          <button id="archive-button" class="action-btn"> 
-          ${email.archived ? "Unarchive" : "Archive email"} 
-          </button>
           </div>
         `;
 
@@ -202,9 +199,6 @@ function load_mailbox(mailbox) {
           <p><span class="email-subject"><strong>Subject:</strong> ${email.subject}<span>
           <span class="email-timestamp"><strong>Created:</strong> ${email.timestamp}<span></p>
           </div>
-          <button id="archive-button" class="action-btn"> 
-          ${email.archived ? "Unarchive" : "Archive email"} 
-          </button>
           </div>
         `;
 
